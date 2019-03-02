@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	color: #626262;
+}
+.main {
+	width: 1200px;
+	height: 2500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	width: 1060px;
+	height: 164px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.logo {
+	float: left;
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 70px;
+}
+.logo a {
+	text-decoration: none;
+	color: #000000;
+}
+.header-navigation {
+	float: right;
+	margin-top: 70px;
+}
+.header-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.header-navigation li {
+	display: inline-block;
+}
+.header-navigation a {
+	text-decoration: none;
+	color: #626262;
+	margin-left: 95px;
+}
+.photo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1060px;
+	height: 509px;
+	background: url("../img/image1.jpg") no-repeat;
+	margin-bottom: 99px;
+}
+.photodiary {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 134px;
+}
+.photodiary h3 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-weight: normal;
+	color: #b4ad9e;
+}
+.photodiary h1 {
+	font-size: 30px;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+.photodiary p {
+	margin-top: 0;
+	margin-bottom: 55px;
+}
+.lifestyle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.lifestyle:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+.lifestyle-photo {
+	width: 420px;
+	float: left;
+}
+.lifestyle-photo-right {
+	float: right;
+}
+.lifestyle-photo img {
+	margin-bottom: 30px;
+}
+.lifestyle-photo h3 {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-weight: normal;
+	color: #b4ad9e;
+}
+.lifestyle-photo h2 {
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-size: 30px;
+	font-weight: normal;
+}
+.lifestyle-photo p {
+	margin-top: 0;
+	margin-bottom: 135px;
+}
+.newsletter {
+	background-color: #f0f0f0;
+	height: 287px;
+	text-align: center;
+	margin-bottom: 103px;
+}
+.newsletter h2 {
+	display: inline-block;
+	margin-top: 75px;
+	margin-bottom: 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+.newsletter p {
+	display: inline-block;
+	margin-top: 89px;
+	margin-bottom: 0;
+	margin-right: 197px;
+}
+.line {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 14px;
+}
+.lifestyle-top10 .lifestyle-photo p {
+	margin-bottom: 168px;
+}
+.more {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 162px;
+	border-color: #000;
+	border-width: 1px;
+	border-style: solid;
+	margin-bottom: 99px;
+}
+.more p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+.more a {
+	display: block;
+	padding-top: 18px;
+	height: 40px;
+	color: #626262;
+	text-decoration: none;
+}
+.footer {
+	height: 99px;
+	background-color: #f0f0f0;
+}
+.footer a {
+	color: #000000;
+}
+.footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-top: 41px;
+}
+.footer li {
+	display: inline-block;
+}
+.footer a {
+	text-decoration: none;
+}
+.conditions {
+	float: left;
+	padding-left: 127px;
+}
+.conditions li {
+	padding-right: 40px;
+}
+.follow {
+	float: right;
+	padding-right: 71px;
+}
+.follow li {
+	padding-left: 22px;
+}
